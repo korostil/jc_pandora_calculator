@@ -1,2 +1,5 @@
+from views import vk_view
+
+
 def setup_routes(app):
-    pass
+    app.router.add_post('/vk', vk_view)

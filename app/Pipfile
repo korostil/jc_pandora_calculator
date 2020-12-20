@@ -5,9 +5,14 @@ name = "pypi"
 
 [packages]
 aiohttp = "*"
-pyyaml = "*"
+PyYAML = "*"
+vk-api = "*"
+aiofiles = "*"
 
 [dev-packages]
+pytest = "*"
+mixer = "*"
+pytest-aiohttp = "*"
 
 [requires]
 python_version = "3.8"

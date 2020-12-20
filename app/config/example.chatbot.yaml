@@ -1,0 +1,9 @@
+host: '127.0.0.1'
+port: 8000
+media_root: /media/
+
+vk:
+  group_id:
+  group_token:
+  secret:
+  confirmation:
