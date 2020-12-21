@@ -15,4 +15,6 @@ class VKConnection:
 
     @classmethod
     def renew(cls):
-        cls.instance = vk_api.VkApi(token=config['vk']['group_token'], api_version='5.103').get_api()
+        cls.instance = vk_api.VkApi(
+            token=config["vk"]["group_token"], api_version="5.103"
+        ).get_api()

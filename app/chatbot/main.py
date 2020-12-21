@@ -12,7 +12,7 @@ async def make_app():
     return app
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app = make_app()
     logging.basicConfig(level=logging.DEBUG)
-    web.run_app(app, host=config['host'], port=config['port'])
+    web.run_app(app, host=config["host"], port=config["port"])

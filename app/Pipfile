@@ -8,11 +8,14 @@ aiohttp = "*"
 PyYAML = "*"
 vk-api = "*"
 aiofiles = "*"
+SQLAlchemy = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 pytest = "*"
 mixer = "*"
 pytest-aiohttp = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.8"
